@@ -14,6 +14,7 @@
 		03081A9A1C5C9ADB0069F33F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03081A981C5C9ADB0069F33F /* LaunchScreen.storyboard */; };
 		03081AA51C5C9ADB0069F33F /* iosSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03081AA41C5C9ADB0069F33F /* iosSampleTests.swift */; };
 		03081AB01C5C9ADB0069F33F /* iosSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03081AAF1C5C9ADB0069F33F /* iosSampleUITests.swift */; };
+		03081ABE1C5CA2E20069F33F /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03081ABD1C5CA2E20069F33F /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		03081AAB1C5C9ADB0069F33F /* iosSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03081AAF1C5C9ADB0069F33F /* iosSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosSampleUITests.swift; sourceTree = "<group>"; };
 		03081AB11C5C9ADB0069F33F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03081ABD1C5CA2E20069F33F /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				03081A961C5C9ADB0069F33F /* Assets.xcassets */,
 				03081A981C5C9ADB0069F33F /* LaunchScreen.storyboard */,
 				03081A9B1C5C9ADB0069F33F /* Info.plist */,
+				03081ABD1C5CA2E20069F33F /* DataService.swift */,
 			);
 			path = iosSample;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03081ABE1C5CA2E20069F33F /* DataService.swift in Sources */,
 				03081A921C5C9ADB0069F33F /* ViewController.swift in Sources */,
 				03081A901C5C9ADB0069F33F /* AppDelegate.swift in Sources */,
 			);
